@@ -30,3 +30,10 @@ O programa aceita entrada no formato `xxx.xxx.xxx-xx` ou apenas `xxxxxxxxxxx`.
 
 ## Estrutura do projeto
 
+'''brench
+.
+├── Makefile
+├── README.md
+├── cpf.c
+└── bin/ (gerado pelo Makefile)
+'''
