@@ -1,5 +1,17 @@
 #include <stdio.h>
 #include <string.h>
+/*
+ * cpf.c
+ * Validação de CPF no formato xxx.xxx.xxx-xx ou apenas dígitos.
+ *
+ * Algoritmo:
+ * 1) Remove caracteres não numéricos.
+ * 2) Calcula o primeiro dígito verificador usando pesos 10..2.
+ * 3) Calcula o segundo dígito verificador usando pesos 11..2.
+ * 4) Compara com os dígitos informados.
+ *
+ * Compilar: make (com o Makefile fornecido)
+ */
 
 int main()
 {
